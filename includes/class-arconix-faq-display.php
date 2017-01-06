@@ -59,7 +59,7 @@ class Arconix_FAQ_Display {
     public function loop( $args, $echo = false ) {
         // Merge incoming args with the class defaults
         $args = wp_parse_args( $args, $this->getdefaults() );
-        
+
         //group which want to exclude
         $exclude = $args[ 'exclude_group' ];
 
